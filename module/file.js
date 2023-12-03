@@ -6,6 +6,10 @@
 // Update files
 // Delete files
 // Rename files
+ 
+
+// update pkg.json script
+// "start": "nodemon file.js"
 
 var http = require('http');
 var fs = require('fs');
@@ -15,4 +19,4 @@ http.createServer(function (req, res) {
     res.write(data);
     return res.end();
   });
-}).listen(8080);
+}).listen(8082);
