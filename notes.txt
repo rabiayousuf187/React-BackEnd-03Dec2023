@@ -1,0 +1,18 @@
+Back End Started 						Dated: 03 Dec 2023
+Node Js :
+Runtime env for JS, Srever req and res via  http, text based protocol,
+Express framework, made upof NodeJS
+
+Simple Code with INstruction
+// import module
+// import { createServer } from 'http';
+var http = require('http');
+
+
+// Fun with req, & res
+// Main Head and Body
+// Head Token  or Data with res Status code 
+// Body Data
+// Listen Port 8080
+// Terminal node index.js
+// type in browser for serverhttp://localhost:8080/
