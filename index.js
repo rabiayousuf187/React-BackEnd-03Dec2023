@@ -15,6 +15,6 @@ http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
   res.write("Hello Rabia! The date and time are currently: " + dt.myDateTime());
 //   Read Reqted URL
-  res.write("\nUser Reqested URL: " + req.url);
+//   res.write("\nUser Reqested URL: " + req.url);
   res.end('Hello World!');
 }).listen(8080);
